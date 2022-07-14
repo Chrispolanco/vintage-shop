@@ -1,15 +1,16 @@
 import React, { Fragment } from "react";
 import { Outlet, Link } from "react-router-dom";
 
-import { ReactComponent as HalloweenLogo } from '../../../assets/halloween.svg'
+import { ReactComponent as HalloweenLogo } from '../../assets/halloween.svg'
 
+import './navigation.styles.scss'
 
 const Navigation = () => {
   return(
     <Fragment>
       <div className="navigation">
         <Link className="logo-container" to='/'>
-          <HalloweenLogo className="logo" width="6%" height="6%" /> 
+          <HalloweenLogo className="logo"  /> 
         </Link>
         <div className="nav-links-container">
           <Link className="nav-link" to='/shop'>
