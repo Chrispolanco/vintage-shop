@@ -1,8 +1,8 @@
-import './button.styles.scss'
+import './button.styles.scss'; 
 
 
 const BUTTON_TYPES_CLASSES = {
-    google: 'ggole-sign-in', 
+    google: 'google-sign-in', 
     inverted: 'inverted',
 
 }
