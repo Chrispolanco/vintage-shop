@@ -10,6 +10,6 @@ export const CartProvider = ({ children }) => {
     const value = { isCartOpen, setIsCartOpen}; 
 
     return(
-        <CartContext.Provider> {children} </CartContext.Provider>
+        <CartContext.Provider value={value}> {children} </CartContext.Provider>
     )
-}
+}; 
